@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang = 'es'>
+    <head>
+        <title>Justicia periodística</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/nunito-sans" type="text/css"/>
+    </head>
+    <body>
+    
+        <h1 class="título">Justicia periodística.</h1>
+        <div class="contenedor">
+            <section id="información">
+                <h2 class="info-h2">Sobre esta página.</h2>
+                <p class="info-p">Esta página es una herramienta para solucionar una situación
+                    injusta que sucede en las ruedas de prensa del Gobierno de España.
+                    Solo unos pocos periodistas tienen la opción de realizar preguntas y no todos,
+                    como tendría que ser.
+                </p>
+                <p class="info-p">
+                    El uso de esta página permitiría que todos todos los periodistas tuvieran
+                    oportunidad de hablar y preguntar.
+                </p>
+                
+                <div class="centro">
+                    <button class='botón info-botón' id="info-botón">Vale</button>
+                </div>    
+            </section>
+
+            <section id="número-periodistas">
+                <h2 class="número-periodistas-h2">¿Cuántos periodistas hay?</h2>
+                <form id="form">
+                    <input type="text" id="número-periodistas-input" required="required">
+                    <div class="centro">
+                        <button class='botón periodistas-botón' id="número-periodistas-botón">Hecho</button>
+                    </div>
+                </form>
+            </section>
+
+            <section id="lista-orden">
+                <h2 class="lista-orden-h2">¿Cómo?</h2>
+                <p class="lista-orden-p">Por orden de llegada, entrada o cualquier método, cada periodista recibe un número.
+                    El periodista realizará su pregunta cuando su número aparezca en la pantalla.
+                </p>
+                <span class="separación"></span>
+                <section id="lista-números">
+                </section>
+                <div class="centro">
+                    <button class="lista-orden-botón botón" id="lista-orden-botón">Todo listo</button>
+                </div>    
+            </section>
+
+            <section id="aplicación">
+                <span class="aplicación-número" id="aplicación-número"></span>
+                <p class="no-números" id="no-números">Se acabó la ronda de preguntas.</p>
+                <div class="aplicación-botones" id="sección-botones">
+                    <button class='botón hecho' id="hecho">Ya ha preguntado</button>
+                    <button class='botón otra-vez' id="otra-vez">Aún no tiene pregunta</button>
+                    <button class='botón no' id="no">No quiere preguntar</button>
+                </div>
+            </section>
+
+        </div>
+           
+        <div class="pie nombre">
+            <a class="inline" href="#">José Ángel</a>
+        </div>
+
+            <script src="script.js"></script>
+    </body>
+</html>
