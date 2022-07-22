@@ -27,10 +27,17 @@ body{
 }
 
 
+label{
+    font-weight: bold;
+    margin-top: 1em;
+    
+    
+}
+
 input{
     display: block;
     width: 100%;
-    margin-top: 2em;
+    margin-top: 1em;
     border: none;
     border: 0;
     border-bottom: 2px solid gray;
