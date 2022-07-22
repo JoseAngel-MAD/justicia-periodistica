@@ -25,7 +25,10 @@ body{
 .aplicación-botones, .centro, h2{
     text-align:center;
 }
-    
+
+.número-periodistas{
+    margin-bottom: 2em;   
+}    
 
 label{
     font-weight: bold;
