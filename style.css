@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -46,7 +53,6 @@ input:focus{
 
 .botón{
     display: inline-block;
-    /* text-align: center; */
     padding: 10px 25px;
     font-weight: bold;
     cursor: pointer;
@@ -68,8 +74,12 @@ input:focus{
 }
 
 .f{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .separación{
