@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <meta charset="UTF-8">
+        <title>Journalistic justice</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/nunito-sans" type="text/css"/>
+    </head>
+    <body>
+    
+        <h1 class="título">Journalistic justice.</h1>
+        <div class="contenedor">
+            <section id="información">
+                <h2 class="info-h2">About this web.</h2>
+                <p class="info-p">This website is a tool to solve an unfair situation that happens in the press conferences of the Spanish Government.
+                    Only a few journalists have the option to ask question and not all of them, as they should.
+                </p>
+                <p class="info-p">The use of this website would allow all journalists to have the opportunity to speak and ask questions.
+                </p>
+                
+                <div class="centro">
+                    <button type='button' class='botón info-botón' id="info-botón">Great</button>
+                </div>    
+            </section>
+
+            <section id="número-periodistas">
+                <h2 class="número-periodistas-h2">How many journalists are there?</h2>
+                <form id="form" title='number-journalists'>
+                    <label for="número-periodistas-input" title='numbers-journalists'>Number of journalists</label>
+                    <input type="text" id="número-periodistas-input" name='how-many-journalists' required="required">
+                    <div class="centro">
+                        <button type='submit' class='botón periodistas-botón' id="número-periodistas-botón">Done</button>
+                    </div>
+                </form>
+            </section>
+
+            <section id="lista-orden">
+                <h2 class="lista-orden-h2">How?</h2>
+                <p class="lista-orden-p">On a first-come, first-served basis, entry or any other method, journalists are given a number. The journalist will ask their question when their number appears on the screen.
+                </p>
+                <span class="separación"></span>
+                <section id="lista-números">
+                </section>
+                <div class="centro">
+                    <button type='button' class="lista-orden-botón botón" id="lista-orden-botón">Ready!</button>
+                </div>    
+            </section>
+
+            <section id="aplicación">
+                <span class="aplicación-número" id="aplicación-número"></span>
+                <h2 class="no-números" id="no-números">The round of questions is over!.</h2>
+                <div class="aplicación-botones" id="sección-botones">
+                    <button type='button' class='botón hecho' id="hecho">He/she already asked</button>
+                    <button type='button' class='botón otra-vez' id="otra-vez">He/she does not have a question yet.</button>
+                    <button type='button' class='botón no' id="no">He/she doesn't want to ask</button>
+                </div>
+            </section>
+
+        </div>
+           
+        <div class="pie nombre">
+            <a class="inline" href="https://joseangel-mad.github.io/joseangel/index-en" target='_blank' rel='noopener noreferrer'>José Ángel</a>
+        </div>
+        
+        
+        <footer>
+<!--             <small>© José Ángel 2023</small> -->
+        </footer>
+
+        
+        <script src="script.js"></script>
+    </body>
+</html>
