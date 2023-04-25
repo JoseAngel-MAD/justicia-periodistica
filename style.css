@@ -164,12 +164,6 @@ input:focus{
 }
 
 
-footer{
-    text-align: center;
-}
-
-
-
 @media (min-width: 500px){
 
     .aplicación-botones button{
